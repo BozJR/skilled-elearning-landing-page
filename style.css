@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-body {
+.main__container,
+.hero__container {
     margin: 1rem 1.25rem 1rem 1.25rem;
 }
 
@@ -71,4 +72,85 @@ body {
 .hero__img {
     position: relative;
     left: -15%;
+    margin-bottom: 3rem;
+}
+
+.main__container {
+    margin-bottom: 5rem;
+}
+
+.main__container h2 {
+    background-image: linear-gradient(#ff6f48, #f02aa6);
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 120%;
+    word-spacing: 0px;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sub__container {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0 2rem 2.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.sub__container img {
+    margin-bottom: 2.25rem;
+}
+
+.sub__container h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 120%;
+    word-spacing: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.sub__container p {
+    color: #83869A;
+    font-weight: bold;
+    line-height: 150%;
+    word-spacing: 0px;
+    margin-bottom: 1.5rem;
+}
+
+.sub__container a {
+    color: #f74780;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    word-spacing: 0px;
+    text-decoration: none;
+}
+
+.footer__container {
+    background-color: #13183f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+}
+
+.footer__container img {
+    width: 79.29px;
+    height: 20px;
+    margin-right: 3rem;
+}
+
+.footer__container button {
+    background-image: linear-gradient(#4851ff, #f02aa6);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 150%;
+    word-spacing: 0px;
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+    margin-left: 2rem
 }
