@@ -161,6 +161,10 @@
 }
 
 @media (min-width: 768px) {
+    body {
+        background-color: #e8eaf0;
+    }
+
     .main__container,
     .hero__container,
     .hero__container-heading {
@@ -203,5 +207,30 @@
         padding: 0;
     }
 
-    
+    .main__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5rem;
+        row-gap: 3rem;
+        margin-bottom: 6rem;
+    }
+
+    .main__container h2 {
+        margin: 0;
+        padding-top: 4rem;
+    }
+
+    .sub__container {
+        background-color: rgba(255, 255, 255, 0.41);
+        border-radius: 1rem;
+        gap: 4rem;
+    }
+
+    .footer__container {
+        display: flex;
+    }
+
+    .footer__details button {
+        margin-left: 26rem;
+    }   
 }
