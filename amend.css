@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main__container,
+.hero__container,
+.hero__container-heading {
+    margin: 1rem 1.25rem 1rem 1.25rem;
+}
