@@ -1,19 +1,15 @@
-# Frontend Mentor - Skilled e-learning landing page solution
+# Skilled e-learning landing page solution
 
-This is My solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
+This is My solution to creating a more detailed landing page for Skilled e-learning.
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
 
-
-## Overview
 
 ### The challenge
 
@@ -42,5 +38,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@BozJR](https://www.frontendmentor.io/profile/BozJR
+- GitHub Profile - https://github.com/BozJR?tab=repositories
 
